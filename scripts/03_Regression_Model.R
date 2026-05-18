@@ -2,7 +2,7 @@ library(dplyr)
 
 laptop <- read_csv("~/R/Analyzed Data/Laptop-Price-Analysis/Data/Laptop_Cleaned_Dataset.csv")
 
-# log transform improves real-world pricing models
+# log transform
 laptop$logPrice <- log(laptop$Price)
 
 # Final Model
